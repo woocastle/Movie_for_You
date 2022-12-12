@@ -12,5 +12,5 @@ for path in data_paths:
 df.drop_duplicates(inplace=True)
 df.info()
 print(len(df.titles.value_counts()))
-df.to_csv('./crawling_data/review_2022.csv', index=False)
+df.to_csv('./crawling_data/review_20162017.csv', index=False)
 
